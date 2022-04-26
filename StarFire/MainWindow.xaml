@@ -65,18 +65,12 @@
     </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="73*"/>
-            <RowDefinition Height="319*"/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
-        <Frame x:Name="MainFrame" Grid.Row="1"/>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Source="/Pages/MainPage.xaml" Margin="0,122,0,0" />
         <Label Content="г. Казань, ул. Галеева, д. 3-а" FontSize="20" Foreground="#7A7A7A" HorizontalAlignment="Left" Margin="148,53,0,0" VerticalAlignment="Top"/>
         <Label Content="StarFire" FontSize="55" Foreground="#7A7A7A" FontFamily="Yuji Syuku" HorizontalAlignment="Left" Margin="595,30,0,0" VerticalAlignment="Top"/>
         <Label Content=" +7 (843) 203-55-55" FontSize="20" Foreground="#7A7A7A" HorizontalAlignment="Left" Margin="1088,51,0,0" VerticalAlignment="Top"/>
-        <Label Content="Швейная мастерская &#xD;&#xA;''StarFire''" FontSize="40" HorizontalAlignment="Left" Margin="859,83,0,0" VerticalAlignment="Top" Height="121" Width="571" Grid.Row="1"/>
-        <Label Content="Наша швейная мастерская поможет Вам &#xD;&#xA;воплотить в реальность ваши самые смелые &#xD;&#xA;и любимые образы" FontSize="20" HorizontalAlignment="Left" Height="105" Margin="859,228,0,0" VerticalAlignment="Top" Width="451" Grid.Row="1"/>
-        <Button Style="{DynamicResource StyleBtn}" Content="Войти" Background="#FFCD07" Foreground="White" FontSize="24"  HorizontalAlignment="Left" Margin="859,378,0,0" VerticalAlignment="Top" Height="49" Width="156" Grid.Row="1"/>
-        <Button Style="{DynamicResource StyleBtn}" Content="Зарегистрироваться" Background="#FF4F61" Foreground="White" FontSize="24"  HorizontalAlignment="Left" Margin="1054,378,0,0" VerticalAlignment="Top" Height="49" Width="266" Grid.Row="1"/>
-        <Image HorizontalAlignment="Left" Height="499" Margin="94,24,0,0" VerticalAlignment="Top" Width="597" Source="/img/MainFon.PNG" Stretch="Uniform" Grid.Row="1"/>
 
     </Grid>
 </Window>
