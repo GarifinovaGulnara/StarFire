@@ -65,12 +65,12 @@
         </Style>
     </Page.Resources>
 
-    <Grid>
-        <Label Content="Швейная мастерская &#xD;&#xA;''StarFire''" FontSize="40" HorizontalAlignment="Left" Margin="859,229,0,0" VerticalAlignment="Top" Height="121" Width="571"/>
-        <Label Content="Наша швейная мастерская поможет Вам &#xD;&#xA;воплотить в реальность ваши самые смелые &#xD;&#xA;и любимые образы" FontSize="20" HorizontalAlignment="Left" Height="105" Margin="859,374,0,0" VerticalAlignment="Top" Width="451"/>
-        <Button Style="{DynamicResource StyleBtn}" Content="Войти" Background="#FFCD07" Foreground="White" FontSize="24"  HorizontalAlignment="Left" Margin="859,524,0,0" VerticalAlignment="Top" Height="50" Width="155" Click="Button_Click"/>
-        <Button Style="{DynamicResource StyleBtn}" Content="Зарегистрироваться" Background="#FF4F61" Foreground="White" FontSize="24"  HorizontalAlignment="Left" Margin="1054,524,0,0" VerticalAlignment="Top" Height="50" Width="265"/>
-        <Image HorizontalAlignment="Left" Height="569" Margin="94,170,0,0" VerticalAlignment="Top" Width="597" Source="/img/MainFon.PNG"/>
+    <Grid Background="White">
+        <Label Content="Швейная мастерская &#xD;&#xA;''StarFire''" FontSize="40" HorizontalAlignment="Left" Margin="831,133,0,0" VerticalAlignment="Top" Height="121" Width="571"/>
+        <Label Content="Наша швейная мастерская поможет Вам &#xD;&#xA;воплотить в реальность ваши самые смелые &#xD;&#xA;и любимые образы" FontSize="20" HorizontalAlignment="Left" Height="105" Margin="831,278,0,0" VerticalAlignment="Top" Width="451"/>
+        <Button x:Name="LogInBtn" Style="{DynamicResource StyleBtn}" Content="Войти" Background="#FFCD07" Foreground="White" FontSize="24"  HorizontalAlignment="Left" Margin="831,428,0,0" VerticalAlignment="Top" Height="50" Width="155" Click="LogInBtn_Click"/>
+        <Button x:Name="LogUpBtn" Style="{DynamicResource StyleBtn}" Content="Зарегистрироваться" Background="#FF4F61" Foreground="White" FontSize="24"  HorizontalAlignment="Left" Margin="1026,428,0,0" VerticalAlignment="Top" Height="50" Width="265" Click="LogUpBtn_Click"/>
+        <Image HorizontalAlignment="Left" Height="569" Margin="66,74,0,0" VerticalAlignment="Top" Width="597" Source="/img/MainFon.PNG"/>
 
     </Grid>
 </Page>

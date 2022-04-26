@@ -12,26 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+
 namespace StarFire.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainPage.xaml
+    /// Логика взаимодействия для EmploeePage.xaml
     /// </summary>
-    public partial class MainPage : Page
+    public partial class EmploeePage : Page
     {
-        public MainPage()
+        public EmploeePage()
         {
             InitializeComponent();
-        }
-
-        private void LogInBtn_Click(object sender, RoutedEventArgs e)
-        {
-            this.NavigationService.Navigate(new LogInPage());
-        }
-
-        private void LogUpBtn_Click(object sender, RoutedEventArgs e)
-        {
-            this.NavigationService.Navigate(new LogUpPage());
         }
     }
 }

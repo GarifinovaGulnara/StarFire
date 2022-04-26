@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using StarFire.Windows;
 
 namespace StarFire.Pages
 {
@@ -23,6 +24,18 @@ namespace StarFire.Pages
         public LogInPage()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new MainPage());
+        }
+
+        private void InAppBtn_Click(object sender, RoutedEventArgs e)
+        {
+            AboutUsWindow aboutus = new AboutUsWindow();
+            aboutus.Show();
+            Application.Current.MainWindow.Close();
         }
     }
 }
