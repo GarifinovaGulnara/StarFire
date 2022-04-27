@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using StarFire.Pages;
 
 namespace StarFire.Windows
 {
@@ -22,6 +23,26 @@ namespace StarFire.Windows
         public AboutUsWindow()
         {
             InitializeComponent();
+        }
+
+        private void ProfilPageBtn_Click(object sender, RoutedEventArgs e)
+        {
+            SecondFrame.Navigate(new ProfilPage());
+        }
+
+        private void EmploeePageBtn_Click(object sender, RoutedEventArgs e)
+        {
+            SecondFrame.Navigate(new EmploeePage());
+        }
+
+        private void OrderPageBtn_Click(object sender, RoutedEventArgs e)
+        {
+            SecondFrame.Navigate(new OrderingPage());
+        }
+
+        private void CatalogPageBtn_Click(object sender, RoutedEventArgs e)
+        {
+            SecondFrame.Navigate(new CatalogPage());
         }
     }
 }

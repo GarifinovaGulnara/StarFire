@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace StarFire.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для BeginPage.xaml
+    /// Логика взаимодействия для AboutUsPage.xaml
     /// </summary>
-    public partial class BeginPage : Page
+    public partial class AboutUsPage : Page
     {
-        public BeginPage()
+        public AboutUsPage()
         {
             InitializeComponent();
         }

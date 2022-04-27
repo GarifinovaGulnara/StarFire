@@ -7,15 +7,47 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="img\FonLog.PNG" />
+    <None Remove="img\AboutUsFirstImg.PNG" />
+    <None Remove="img\AboutUsSecondImg.PNG" />
+    <None Remove="img\Ailina.jpg" />
+    <None Remove="img\Alina.jpg" />
+    <None Remove="img\Gulnara.jpg" />
+    <None Remove="img\Laila.jpg" />
+    <None Remove="img\LogInFon.PNG" />
+    <None Remove="img\LogUpFon.PNG" />
     <None Remove="img\MainFon.PNG" />
+    <None Remove="img\PurchaseImg.PNG" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="img\FonLog.PNG">
+    <Resource Include="img\AboutUsFirstImg.PNG">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\AboutUsSecondImg.PNG">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Ailina.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Alina.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Gulnara.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\Laila.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\LogInFon.PNG">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\LogUpFon.PNG">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="img\MainFon.PNG">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\PurchaseImg.PNG">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
